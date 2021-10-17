@@ -1,2 +1,0 @@
-##CollageFestManagement 
-Collage Fest Management 

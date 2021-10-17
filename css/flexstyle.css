@@ -1,0 +1,17 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: cyan;
+    flex-direction: row;
+    float: center;
+}
+
+.flex-container>div {
+    background-color: brown;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 75px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,80 @@
+    * {
+        box-sizing: border-box;
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #e7e7e7;
+        background-color: #f3f3f3;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+        background-color: greenyellow;
+    }
+    
+    li a.active {
+        background-color: hotpink;
+    }
+    
+
+    
+    
+    .Contactheading {
+        Float: left;
+        width: 100%;
+        padding: 30px 15px;
+        background-color: yellow;
+    }
+    
+    .L_Contact {
+        Float: left;
+        width: 100%;
+        padding: 10px 15px;
+        
+    }
+    
+    .R_Contact {
+        text-emphasis-color: White;
+        float: left;
+        width: 50%;
+        padding: 0 20px;
+        overflow: hidden;
+    }
+    
+    .Table {
+
+        width: 100%;
+        
+        border-radius: 1mm;
+    }
+    
+    tr,
+    th {
+        border: 1px solid brown;
+        height: 20px;
+    }
+    
+    
+    h1 {
+        text-align: center;
+    }
+    
+    td {
+        display: block;
+        text-align: left;
+    }

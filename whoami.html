@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHO AM I</title>
+    <link rel="stylesheet" href="css/skeletal.css">
+    <link rel="stylesheet" href="css/button.css">
+    <style>
+        p {
+            padding: 20px;
+            font-size: 23px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        h1,
+        h2 {
+            padding: 10px;
+            font-size: 26px;
+            font-weight: 100px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: center;
+            border-right: 1px solid #bbb;
+        }
+        
+        li:last-child {
+            border-right: none;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: greenyellow;
+        }
+        
+        .active {
+            background-color: hotpink;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="home.html">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn"><b> Events</b></button>
+            <div class="dropdown-content">
+                <a href="Technical.html">Technical</a>
+                <a href="NonTechnical.html">Non-Technical</a>
+
+            </div>
+
+        </div>
+        <a href="contact.html">Contacts</a>
+        <a href="Registration.html">Registration</a>
+    </div>
+    <img class="top_img" src="img/top_img.jpg" alt="">
+
+    <div class="full-size-img">
+
+        <div class="Mainheading">
+            <header>
+                <ul>
+                    <li><a href="wrongturn.html" style="color:black;">WHO AM I?</a></li>
+                </ul>
+            </header>
+        </div>
+
+        <br> <br>
+
+        <h2>DETAILS :</h2>
+        <p><b>First Round: </b> The player needs to roll the dice and based on the number a colour will be selected. The team which picks at least 20 balls of the given colour in the given time limit will be promoted to the second round.</p>
+        <p><b> Second Round:</b> Some generalvand technical questions will be given. The player need to pick a chit and arrange the answer for the question with the letters given. A player should answer minimum of 5 questions in given time.</p>
+        <ul>
+            <li><a class="active" href="Registration.html">CLICK HERE TO REGISTER</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

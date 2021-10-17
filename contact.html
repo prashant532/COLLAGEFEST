@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact</title>
+    <style>
+        .navbar {
+            overflow: hidden;
+            background-color: black;
+            font-family: Arial;
+        }
+        
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: whitesmoke;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+            margin: 0;
+        }
+        
+        .dropdown .dropbtn {
+            font-size: 18px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: hotpink;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        a {
+            background-color: cyan;
+            text-emphasis-color: black;
+        }
+        
+        body {
+            margin: 0;
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 800;
+        }
+        
+        .gmail {
+            padding: 20px;
+            background-color: white;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: center;
+            border-right: 1px solid #bbb;
+        }
+        
+        li:last-child {
+            border-right: none;
+        }
+        
+        li a {
+            float: center;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: greenyellow;
+        }
+        
+        .active {
+            background-color: hotpink;
+        }
+        
+        .cnt {
+            background-color: whitesmoke;
+        }
+        
+        .Table {
+            width: 100%;
+            border-radius: 1mm;
+        }
+        
+        tr,
+        th {
+            border: 1px solid brown;
+            height: 20px;
+        }
+        
+        .full-size-img {
+            background-image: url("bg_img2.jpeg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: repeat;
+            background-attachment: fixed;
+            height: 100vh;
+        }
+        
+        .top_img {
+            width: 100%;
+            height: 10%;
+            background-attachment: fixed;
+        }
+        
+        li {
+            float: center;
+            border-right: 1px solid #bbb;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="home.html" style="color: black;">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn"><b> Events</b></button>
+            <div class="dropdown-content">
+                <a href="Technical.html">Technical</a>
+                <a href="NonTechnical.html">Non-Technical</a>
+
+            </div>
+
+        </div>
+        <a href="contact.html" style="color: black;">Contacts</a>
+        <a href="Registration.html" style="color: black;">Registration</a>
+    </div>
+    <img class="top_img" src="img/top_img.jpg" alt="">
+
+    <div class="full-size-img">
+
+        <div class="Mainheading">
+            <header>
+                <ul>
+                    <li><a href="contact.html" style="float: center;color: black;">CONTACT</a></li>
+                </ul>
+            </header>
+        </div>
+
+
+        <div class="cnt">
+            <br>
+            <div class="L_Contact">
+                <table style="width:50%">
+                    <tr>
+                        <th>ADDRESS</th>
+                        <th> Amrita Vishwa Vidyapeetham</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th> Coimbatore Campus</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Amritanagar</th>
+                    </tr>
+
+                    <tr>
+                        <th></th>
+                        <th>Coimbatore - 641 112</th>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <th>Tamilnadu, India</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2"> PHONE NO.: </td>
+                            <th> 044 3553 3222</th>
+                </table><br>
+            </div>
+            <div class="Mainheading">
+                <header>
+                    <ul>
+                        <li><a href="#" style="float: center;color: black;">CONTACT NUMBERS OF EVENT CHARGES</a></li>
+                    </ul>
+                </header>
+            </div>
+        </div>
+
+        <div class="Table">
+            <br>
+            <table style="width:100%">
+
+                <tr>
+                    <th>CATEGORIES</th>
+                    <th>EVENTS</th>
+                    <th>IN CHARGE</th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Programming contest</th>
+                    <th>Ravi : 9878909882</th>
+                </tr>
+                <tr>
+                    <th>TECHNICAL</th>
+                    <th>Project expo</th>
+                    <th>Gopi : 9578097645</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Code Hunt</th>
+                    <th>Shankar : 9878987656</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Paper presentation</th>
+                    <th>Siva Maran : 8912387657</th>
+                </tr>
+
+                <tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Wrong turn</th>
+                    <th>Adhithan : 8898989806</th>
+                </tr>
+                <tr>
+                    <th>NON-TECHNICAL</th>
+                    <th>Who am I</th>
+                    <th>Kumar : 8723989856</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>It's Happening</th>
+                    <th>Dharshan : 8541609216</th>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>Guess Who</th>
+                    <th>Prashanth : 9098786789</th>
+                </tr>
+
+
+                <tr>
+                    <th> </th>
+                    <th> </th>
+                    <th> </th>
+                </tr><br>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

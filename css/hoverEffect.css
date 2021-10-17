@@ -1,0 +1,43 @@
+.container {
+    position:relative;
+    width: 240px;
+}
+.circle{
+    border-radius: 50%;
+    width: 240px;
+    height: 200px;
+    align-content: center;
+}
+.overlay {
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 200px;
+    width: 240px;
+    opacity: 0;
+    transition: .2s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 0.7;
+}
+
+.text {
+    
+    color:rgb(248, 248, 248);
+    font-size: 25px;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,19 @@
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: rgb(86, 141, 212);
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(4, 63, 139)
+}
+
+.button:active {
+    background-color: rgb(9, 48, 99);
+    transform: translateY(2px);
+}
